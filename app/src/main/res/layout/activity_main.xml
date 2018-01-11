@@ -1,3 +1,4 @@
+<!-- Add textview for fouls -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -41,7 +42,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addThreeForTeamA"
-                android:text="@string/teamA3" />
+                android:text="@string/goalA" />
 
             <Button
                 android:layout_width="match_parent"
@@ -50,7 +51,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForTeamA"
-                android:text="@string/teamA2" />
+                android:text="@string/foulA" />
 
             <Button
                 android:layout_width="match_parent"
@@ -100,7 +101,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addThreeForTeamB"
-                android:text="@string/teamB3" />
+                android:text="@string/goalB" />
 
             <Button
                 android:layout_width="match_parent"
@@ -109,7 +110,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addTwoForTeamB"
-                android:text="@string/teamB2" />
+                android:text="@string/foulB" />
 
             <Button
                 android:layout_width="match_parent"
