@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setScoreGoal_team2(View v) {
-        goalTeam1 += 1;
+        goalTeam2 += 1;
         displayGoalTeam2(goalTeam2);
     }
 
