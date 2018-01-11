@@ -4,11 +4,7 @@
     <string name="team2">Team B</string>
     <string name="scoreGoal">0</string>
     <string name="scoreFoul">0</string>
-    <string name="shots">Shots</string>
-    <string name="shotsOnTarget">Shots on Target</string>
     <string name="goal">Goal</string>
     <string name="foul">Foul</string>
-    <string name="cardRed">Red Card</string>
-    <string name="cardYellow">Yellow Card</string>
     <string name="reset">Reset</string>
 </resources>
