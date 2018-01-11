@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void addThreeForTeamA(View v) {
+   /* public void addThreeForTeamA(View v) {
         scoreTeamA += 3;
         displayForTeamA(scoreTeamA);
     }
@@ -61,6 +61,6 @@ public class MainActivity extends AppCompatActivity {
         scoreTeamB = 0;
         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
-    }
+    }*/
 }
 

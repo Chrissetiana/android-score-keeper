@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Score Keeper</string>
+    <string name="team1">Team A</string>
+    <string name="team2">Team B</string>
+    <string name="score">0</string>
     <string name="shots">Shots</string>
     <string name="shotsOnTarget">Shots on Target</string>
-    <string name="goal">Goal</string>
+    <string name="goal">Goal!</string>
     <string name="foul">Foul</string>
+    <string name="cardRed">Red Card</string>
+    <string name="cardYellow">Yellow Card</string>
+    <string name="reset">Reset</string>
 </resources>
