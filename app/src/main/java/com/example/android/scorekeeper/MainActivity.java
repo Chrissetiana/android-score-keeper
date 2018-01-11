@@ -7,8 +7,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    int goalTeam1 = 0;
+    int goalTeam2 = 0;
+    int foulTeam1 = 0;
+    int foulTeam2 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,51 +18,55 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-   /* public void addThreeForTeamA(View v) {
-        scoreTeamA += 3;
-        displayForTeamA(scoreTeamA);
+    public void setScoreGoal_team1(View v) {
+        goalTeam1 += 1;
+        displayGoalTeam1(goalTeam1);
     }
 
-    public void addTwoForTeamA(View v) {
-        scoreTeamA += 2;
-        displayForTeamA(scoreTeamA);
+    public void setScoreGoal_team2(View v) {
+        goalTeam1 += 1;
+        displayGoalTeam2(goalTeam2);
     }
 
-    public void addOneForTeamA(View v) {
-        scoreTeamA += 1;
-        displayForTeamA(scoreTeamA);
+    public void setScoreFoul_team1(View v) {
+        foulTeam1 += 1;
+        displayFoulTeam1(foulTeam1);
     }
 
-    public void addThreeForTeamB(View v) {
-        scoreTeamB += 3;
-        displayForTeamB(scoreTeamB);
+    public void setScoreFoul_team2(View v) {
+        foulTeam2 += 1;
+        displayFoulTeam2(foulTeam2);
     }
 
-    public void addTwoForTeamB(View v) {
-        scoreTeamB += 2;
-        displayForTeamB(scoreTeamB);
-    }
-
-    public void addOneForTeamB(View v) {
-        scoreTeamB += 1;
-        displayForTeamB(scoreTeamB);
-    }
-
-    public void displayForTeamA(int score) {
-        TextView scoreView = findViewById(R.id.team_a_score);
+    public void displayGoalTeam1(int score) {
+        TextView scoreView = findViewById(R.id.scoreGoal_team1);
         scoreView.setText(String.valueOf(score));
     }
 
-    public void displayForTeamB(int score) {
-        TextView scoreView = findViewById(R.id.team_b_score);
+    public void displayGoalTeam2(int score) {
+        TextView scoreView = findViewById(R.id.scoreGoal_team2);
+        scoreView.setText(String.valueOf(score));
+    }
+
+    public void displayFoulTeam1(int score) {
+        TextView scoreView = findViewById(R.id.scoreFoul_team1);
+        scoreView.setText(String.valueOf(score));
+    }
+
+    public void displayFoulTeam2(int score) {
+        TextView scoreView = findViewById(R.id.scoreFoul_team2);
         scoreView.setText(String.valueOf(score));
     }
 
     public void resetScore(View v) {
-        scoreTeamA = 0;
-        scoreTeamB = 0;
-        displayForTeamA(scoreTeamA);
-        displayForTeamB(scoreTeamB);
-    }*/
+        goalTeam1 = 0;
+        goalTeam2 = 0;
+        foulTeam1 = 0;
+        foulTeam2 = 0;
+        displayGoalTeam1(goalTeam1);
+        displayGoalTeam2(goalTeam2);
+        displayFoulTeam1(foulTeam1);
+        displayFoulTeam2(foulTeam2);
+    }
 }
 
