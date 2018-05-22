@@ -1,4 +1,4 @@
-package com.example.android.scorekeeper;
+package com.chrissetiana.android.scorekeeper;
 
 import org.junit.Test;
 
