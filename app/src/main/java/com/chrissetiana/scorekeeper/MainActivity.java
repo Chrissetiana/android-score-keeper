@@ -1,4 +1,4 @@
-package com.chrissetiana.android.scorekeeper;
+package com.chrissetiana.scorekeeper;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
