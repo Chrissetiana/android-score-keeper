@@ -69,4 +69,3 @@ public class MainActivity extends AppCompatActivity {
         displayFoulTeam2(foulTeam2);
     }
 }
-
